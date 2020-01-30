@@ -1,37 +1,33 @@
 # HRMIS-PRJ-20191227
 
-#### 介绍
-JAVA实训项目
+### 1.在屏幕上显示所有当前员工记录。
 
-#### 软件架构
-软件架构说明
+### 2.在屏幕上显示所有当前员工记录（格式化和排序）。(工号)
 
+### 3.仅在屏幕上显示姓名和电话号码。
 
-#### 安装教程
+### 4.仅在屏幕上显示姓名和电话号码（格式化和排序）。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 5.搜索和显示特定的员工记录。
 
-#### 使用说明
+### 6.在记录文件中添加新记录。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 7.从记录文件中删除记录。
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+### 8.将记录更新到记录文件
+	可对员工记录进行修改，可修改所有的属性。
+### 9.用户登录模块
+	在程序运行之后需要输入正确的用户名和密码登录后才可进行操作
+### 10.用户注册模块
+	实现用户注册功能，用户名和密码可为任意字符串，真实姓名只能全为英文。
+### 11.加密API
+	使用SHA256加密API进行加密
 
 
-#### 码云特技
+## 文件说明：
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+.\HRMIS-PRJ-20191227\src\edu\fzu\hrmis\records.txt 用于记录员工信息
+
+.\HRMIS-PRJ-20191227\src\edu\fzu\hrmis\accountAndPassword-unencrypted.txt 未加密的账号密码文件
+
+.\HRMIS-PRJ-20191227\src\edu\fzu\hrmis\accountAndPassword.txt 加密的账号密码文件
